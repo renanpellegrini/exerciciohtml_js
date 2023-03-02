@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h3>Use os campos abaixo para comparar dois números. Os valores serão válidos somente se o segundo número for maior que o primeiro.</h3>
+            <form id="bigNum">
+                <input type="number" id="numberOne" placeholder="Insira aqui o número 1">
+                <input type="number" id="numberTwo" placeholder="Insira aqui o número 2">
+                <button type="submit">Checar</button>
+            </form>
+            <p class="mensagemSucesso"></p>
+            <p class="error-message">O primeiro número é maior que o segundo. Refaça a operação.</p>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
